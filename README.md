@@ -11,6 +11,13 @@ SpanishDefine is a service created to solve the inconveniences of having to manu
 Changelog
 ---------
 
+### August 2nd, 2019 ---> NEW VERSION
+* Complete internal redesign; Use of AJAX, heavier reliance on Javascript
+* No more PHP page reloads to fulfill definition/conjugation requests (PERFORMANCE INCREASE)
+* Basic input cleaning & wrong input feedback
+* Significant design improvements, particularly with conjugation selection
+* MOBILE SUPPORT! Dynamic resizing and readability
+
 ##### May 26th, 2019
 * Basic dictionary functionality implemented
 * "How to use" panel written
