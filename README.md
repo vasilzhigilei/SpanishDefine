@@ -18,6 +18,13 @@ Changelog
 * Significant design improvements, particularly with conjugation selection
 * MOBILE SUPPORT! Dynamic resizing and readability
 
+<p align="center">
+<img src="https://github.com/vasilzhigilei/SpanishDefine/blob/master/ver2.PNG" height="400px"></img>
+<img src="https://github.com/vasilzhigilei/SpanishDefine/blob/master/ver1.PNG" height="400px"></img>
+</p>
+
+<h6 align="center"><i>[New version (left) vs previous version (right)]</i></h6>
+
 ##### May 26th, 2019
 * Basic dictionary functionality implemented
 * "How to use" panel written
