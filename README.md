@@ -11,6 +11,9 @@ SpanishDefine is a service created to solve the inconveniences of having to manu
 Changelog
 ---------
 
+##### August 25th, 2019
+* Fixed JS form script to avoid bug related to the Paypal button
+
 ### August 2nd, 2019 ---> NEW VERSION
 * Complete internal redesign; Use of AJAX, heavier reliance on Javascript
 * No more PHP page reloads to fulfill definition/conjugation requests (PERFORMANCE INCREASE)
