@@ -2,11 +2,12 @@
 
 SpanishDefine
 ===============
-Repository for [SpanishDefine.com](https://spanishdefine.com), primarily for changelogs.
+Repository for [SpanishDefine.com](https://spanishdefine.com).
+Hosts changelog & localhost version of SpanishDefine.com (live version slightly modified).
 
 The Website & the Service it Provides
 -------------------------------------
-SpanishDefine is a service created to solve the inconveniences of having to manually look up definitions and conjugations for Spanish words. This website was introduced as a solution to this problem, and is still being updated and maintained. The primary purpose of this repository is to provide a changelog seperate from the website to track progress and improvements.
+SpanishDefine is a service created to solve the inconveniences of having to manually look up definitions and conjugations for Spanish words. This website was introduced as a solution to this problem, and is still being updated and maintained. The primary purpose of this repository is to provide a changelog seperate from the website to track progress and improvements. It also hosts the files for the local version SpanishDefine.com (i.e. the version without SQL & database keys).
 
 Changelog
 ---------
