@@ -1,5 +1,3 @@
-![SpanishDefine Logo](https://www.spanishdefine.com/resources/logo/spanishdefine_logo_header.png)
-
 <p align="center">
   <a href="https://www.spanishdefine.com" target="_blank"><img src="https://www.spanishdefine.com/resources/logo/spanishdefine_logo_header.png"></a>
 </p>
