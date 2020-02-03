@@ -213,7 +213,7 @@ $(document).ready(function() {
         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
     </form>
     <br>
-    © 2019 <b>Vasil Zhigilei</b> All rights reserved.
+    © 2020 <b>Vasil Zhigilei</b> All rights reserved.
 </div>
 <script>
     if ( window.history.replaceState ) {
