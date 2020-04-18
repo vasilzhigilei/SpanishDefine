@@ -11,6 +11,17 @@ The Website & the Service it Provides
 -------------------------------------
 SpanishDefine is a service created to solve the inconveniences of having to manually look up definitions and conjugations for Spanish words. This website was introduced as a solution to this problem, and is still being updated and maintained. The primary purpose of this repository is to provide a changelog seperate from the website to track progress and improvements. It also hosts the files for the local version SpanishDefine.com (i.e. the version without SQL & database keys).
 
+##### Known issues
+* Subjunctive improperly labeled
+* Participle improperly labeled (should be Present Participle or Gerund)
+* Imperative 3rd person flipped in output
+* Missing verbs (haber)
+* Missing verbs (many car/gar/zar verbs missing)
+
+##### Things to improve
+* Make output more user-friendly & descriptive
+* Add functionality to translate website between English & Spanish
+
 Changelog
 ---------
 
