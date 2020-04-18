@@ -13,7 +13,7 @@ SpanishDefine is a service created to solve the inconveniences of having to manu
 
 ##### Known issues
 * ~~Subjunctive improperly labeled~~ *fixed*
-* Participle improperly labeled (should be Present Participle or Gerund)
+* ~~Participle improperly labeled (should be Present Participle or Gerund)~~
 * ~~Imperative 3rd person flipped in output~~ *fixed*
 * Missing verbs (haber)
 * Missing verbs (many car/gar/zar verbs missing)
