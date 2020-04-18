@@ -131,7 +131,7 @@ if(empty($_POST['inputTextArea'])){
                 echo "<tr><td class=\"tg-0pky\">" . $result->fetch_assoc()[$conjugation] . "</td></tr>";
             }else if($conjugation == "imperative_affirmative" || $conjugation == "imperative_negative"){
                 $row = $result->fetch_assoc();
-                $temp_array = array("___", $row["form_2s"], $row["form_3s"], "___", $row["form_2p"], $row["form_3p"]);
+                $temp_array = array("___", $row["form_2s"], $row["form_2p"], "___", $row["form_3s"], $row["form_3p"]);
                 echo "<tr><td class=\"tg-0pky\">";
                 $i = 0;
                 if(mysqli_num_rows($result) != 0){

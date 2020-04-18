@@ -138,9 +138,9 @@ input[type=checkbox]:checked:hover + span {
 
 input[type="submit"]{
     transition: 0.3s;
-    background-color: rgba(131, 199, 5, .6);
-    color: white;
+    background-color: rgba(55, 55, 64, .7);
     border: none;
+    color: white;
     padding: 5px 10px;
     text-decoration: none;
     font-size: 14px;
@@ -154,7 +154,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    background: rgba(131, 199, 5, .9);
+    background: rgba(131, 199, 5, .7);
 }
 
 .left {
