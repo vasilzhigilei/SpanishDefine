@@ -14,6 +14,11 @@ SpanishDefine is a service created to solve the inconveniences of having to manu
 Changelog
 ---------
 
+##### April 18th, 2020
+* Corrected & improved conjugation labels
+* Corrected imperitive 3rd person output
+* Adjusted center panel opacity & width
+
 ##### August 25th, 2019
 * Fixed JS form script to avoid bug related to the Paypal button
 
