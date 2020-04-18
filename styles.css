@@ -9,7 +9,7 @@
 
 .main {
     float: left;
-    width:46%;
+    width:58%;
     text-align: center;
 }
 table, td, th {
@@ -29,7 +29,7 @@ table, td, th {
 /* Style the tab */
 .tab {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: rgba(241, 241, 241, 1);
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -41,6 +41,9 @@ table, td, th {
     padding: 14px 16px;
     transition: 0.3s;
     display: table-cell;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /* Change background color of buttons on hover */
@@ -55,12 +58,13 @@ table, td, th {
 
 /* Style the tab content */
 .tabcontent {
-    background-color: rgb(241, 241, 241, 0.5);
+    background:radial-gradient(at top, rgba(255, 233, 162, 0.5), rgba(241, 241, 241, 0.5));
     display: none;
     margin: auto;
     padding: 6px 20px;
     border-top: none;
     animation: fadeEffect 0.2s; /* Fading effect takes 1 second */
+    font-family:Arial;
 }
 
 .text {
@@ -83,8 +87,10 @@ table, td, th {
     resize: none;
     padding:15px;
     width: 100%;
-    height: 400px;
+    height: 300px;
     font-size: 16px;
+    border:0;
+    background:radial-gradient(at top, rgba(241, 241, 241, .9), rgb(241, 241, 241, 0.8));
 }
 
 
@@ -132,9 +138,9 @@ input[type=checkbox]:checked:hover + span {
 
 input[type="submit"]{
     transition: 0.3s;
-    background-color: #f1f1f1;
+    background-color: rgba(131, 199, 5, .6);
+    color: white;
     border: none;
-    color: black;
     padding: 5px 10px;
     text-decoration: none;
     font-size: 14px;
@@ -144,16 +150,17 @@ input[type="submit"]{
     display: block;
     width: 100%;
     position: relative;
+    font-size: 17px;
 }
 
 input[type="submit"]:hover{
-    background-color: #ddd;
+    background: rgba(131, 199, 5, .9);
 }
 
 .left {
     background-color: gray;
     float:left;
-    width:27%;
+    width:21%;
     align-content: center;
     text-align: center;
     margin-top: 45px;
@@ -162,7 +169,7 @@ input[type="submit"]:hover{
 .right {
     background-color: gray;
     float: left;
-    width:27%;
+    width:21%;
     align-content: center;
     text-align: center;
     margin-top: 45px;

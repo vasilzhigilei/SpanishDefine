@@ -8,7 +8,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "data";
+$dbname = "spanishdefine";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

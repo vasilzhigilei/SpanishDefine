@@ -4,7 +4,7 @@
     <title>SpanishDefine - Define & Conjugate Lists of Spanish Verbs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <body style="background:radial-gradient(at top, rgb(255, 207, 43, 0.4), rgb(241, 241, 241, 0.25)), url(<?php header ('Content-type: text/html; charset=utf-8'); echo "resources/images/beach_ocean.jpg" ?>);no-repeat center center fixed;
+    <body style="background:radial-gradient(at top, rgba(255, 207, 43, 0.4), rgba(241, 241, 241, 0.25)), url(<?php header ('Content-type: text/html; charset=utf-8'); echo "resources/images/beach_ocean.jpg" ?>);no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -80,8 +80,8 @@ $(document).ready(function() {
                         <div class="formDiv">
                         <form id="form">
                             <br>
-                            <p style="margin:2px;margin-bottom:10px;padding:0px;">Enter word list below:</p>
-                            <textarea id="inputTextArea" name="inputTextArea"></textarea>
+                            <p style="margin:2px;margin-bottom:10px;padding:0px;font-weight:bold;">Enter word list below:</p>
+                            <textarea id="inputTextArea" name="inputTextArea" placeholder="Trabajar, ser, comer, ir, saber..."></textarea>
                             <br>
 
                             <table class="tg"><tbody>
@@ -91,10 +91,10 @@ $(document).ready(function() {
                                 <label><input type="checkbox" name="conjugations[]" value="pastparticiple"><span>Past Participle</span></label>
                             </div>
                             </th></tr>
-                            <tr><td class="tg-0pky" style="background-color: rgba(56, 182, 250, .2);">
-                            Indicative
-                            </td><td class="tg-0pky" style="background-color: rgba(250, 56, 182, .2);">
-                            Subjunctive
+                            <tr><td class="tg-0pky" style="background-color: rgba(56, 182, 250, .2);font-size:17px;">
+                            INDICATIVE
+                            </td><td class="tg-0pky" style="background-color: rgba(250, 56, 182, .2);font-size:17px;">
+                            PERFECT
                             </td></tr>
                             <tr><td class="tg-0pky" style="background-color: rgba(56, 182, 250, .2);">
                             <div>
@@ -122,6 +122,11 @@ $(document).ready(function() {
                                 <label><input type="checkbox" name="conjugations[]" value="perfect_future"><span>Future</span></label>
                             </div>
                             </td></tr>
+                            <tr><td class="tg-0pky" style="background-color: rgba(56, 182, 250, .2);font-size:15px;">
+                            Regular Subjunctive
+                            </td><td class="tg-0pky" style="background-color: rgba(250, 56, 182, .2);font-size:15px;">
+                            Perfect Subjunctive
+                            </td></tr>
                             <tr><td class="tg-0pky" style="background-color: rgba(56, 182, 250, .2);">
                             <div>
                                 <label><input type="checkbox" name="conjugations[]" value="subj_present"><span>Present</span></label>
@@ -140,6 +145,9 @@ $(document).ready(function() {
                                 <label><input type="checkbox" name="conjugations[]" value="subj_perfect_future"><span>Future</span></label>
                             </div>
                             </td></tr>
+                            <tr><td class="tg-0pky" colspan="2" style="background-color: rgba(250, 182, 56, .2);font-size:17px;">
+                            IMPERATIVE (Command form)
+                            </td>
                             <tr><th  class="tg-0pky" colspan="2" style="background-color: rgba(250, 182, 56, .2);">
                             <div>
                                 <label><input type="checkbox" name="conjugations[]" value="imperative_affirmative"><span>Affirmative</span></label>
