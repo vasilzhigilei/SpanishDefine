@@ -8,8 +8,6 @@
 }
 
 .main {
-    float: left;
-    width:58%;
     text-align: center;
 }
 table, td, th {
@@ -22,13 +20,16 @@ table, td, th {
 
 .tabbed_area {
     margin:auto;
-    width: 56%;
+    width: 33%;
     min-width:434px; 
 }
 
 /* Style the tab */
 .tab {
     overflow: hidden;
+    display: flex;
+    min-width: 58%;
+    justify-content: center;
     background-color: rgba(241, 241, 241, 1);
 }
 
@@ -157,19 +158,9 @@ input[type="submit"]:hover{
     background: rgba(131, 199, 5, .7);
 }
 
-.left {
-    background-color: gray;
-    float:left;
-    width:21%;
-    align-content: center;
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 45px;
-}
-.right {
+.left, .right {
     background-color: gray;
     float: left;
-    width:21%;
     align-content: center;
     text-align: center;
     margin-top: 45px;
@@ -185,7 +176,9 @@ input[type="submit"]:hover{
 @media only screen and (max-width:884px) {
     /* For mobile phones: */
     .left, .main, .right {
-    width:100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        width:100%;
     }
     .tabbed_area {
         min-width: 0px;

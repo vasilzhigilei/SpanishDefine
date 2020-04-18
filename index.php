@@ -35,14 +35,6 @@ $(document).ready(function() {
         xmlhttp.open("POST",urlfetch,true);
         xmlhttp.send(new FormData(document.getElementById("form")));
         openTab(val+"d");
-        /*$.ajax({
-            type: 'post',
-            url: urlfetch,
-            data: $('form').serialize(),
-            success: function () {
-                $('#'+val+"dReplace").load(urlfetch);
-            }
-        });*/
     });
     $("form input[type=submit]").click(function() {
         $("input[type=submit]", $(this).parents("form")).removeAttr("clicked");
@@ -59,7 +51,7 @@ $(document).ready(function() {
     </div>
     <br>
 
-    <div style="overflow:auto;">
+    <div>
         <div class="left">
         </div>
 
@@ -87,7 +79,7 @@ $(document).ready(function() {
                             <table class="tg"><tbody>
                             <tr><th class="tg-0pky" colspan="2" style="background-color: rgba(250, 182, 56, .2);">
                             <div>
-                                <label><input type="checkbox" name="conjugations[]" value="gerund"><span>Participle</span></label>
+                                <label><input type="checkbox" name="conjugations[]" value="gerund"><span>Present Participle</span></label>
                                 <label><input type="checkbox" name="conjugations[]" value="pastparticiple"><span>Past Participle</span></label>
                             </div>
                             </th></tr>
