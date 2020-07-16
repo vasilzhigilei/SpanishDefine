@@ -4,13 +4,24 @@
     <title>SpanishDefine - Define & Conjugate Lists of Spanish Verbs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <body style="background:radial-gradient(at top, rgba(255, 207, 43, 0.4), rgba(241, 241, 241, 0.25)), url(<?php header ('Content-type: text/html; charset=utf-8'); echo "resources/images/beach_ocean.jpg" ?>);no-repeat center center fixed;
+    <body style="background:radial-gradient(at top, rgb(255, 207, 43, 0.4), rgb(241, 241, 241, 0.25)), url(<?php header ('Content-type: text/html; charset=utf-8'); echo "resources/images/beach_ocean_optimized.jpg" ?>);no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 background-attachment:fixed;">
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145722606-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145722606-1');
+</script>
+
 <script>
 $(document).ready(function() {
     $('#form').submit(function(e) {
