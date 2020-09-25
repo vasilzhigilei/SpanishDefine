@@ -197,7 +197,7 @@ $(document).ready(function() {
                             This tool uses verb conjugations by <a href="https://users.ipfw.edu/jehle/" target="_blank">Fred F. Jehle</a>, of Purdue University, compiled into a database format by <a href="https://twitter.com/ghidinelli" target="_blank">Brian Ghidinelli</a>.</p>
                             <p style="padding-top:0px;margin-top:0px;">Further questions? Please email support@spanishdefine.com</p>
                             <h3>About the Developer</h3>
-                            <p>SpanishDefine is created and maintained by <a href="http://zhigilei.com" target="_blank">Vasil Zhigilei</a>, a second year student at the Engineering School of the Univeristy of Virginia.</p>
+                            <p>SpanishDefine is created and maintained by <a href="http://zhigilei.com" target="_blank">Vasil Zhigilei</a>, a third year Computer Science student at the Engineering School of the Univeristy of Virginia.</p>
                             <h3>Changelog</h3>
                             <p>For the changelog, please visit the corresponding <a href="https://github.com/vasilzhigilei/SpanishDefine" target="_blank">GitHub</a> page.</p>
                             <br> <!-- extra space before bottom -->
