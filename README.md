@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.spanishdefine.com" target="_blank"><img src="https://www.spanishdefine.com/resources/logo/spanishdefine_logo_header.png"></a>
+  <a href="https://www.spanishdefine.com" target="_blank"><img src="https://raw.githubusercontent.com/vasilzhigilei/SpanishDefine/master/resources/logo/spanishdefine_logo_header.png"></a>
 </p>
 
 SpanishDefine
